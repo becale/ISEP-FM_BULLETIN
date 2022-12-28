@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/eab68dd471.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/adminHome.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bulletin/adminHome.css' %}">
     <link rel="stylesheet" href="../css/bootstrap-5.0.2/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap-5.0.2/bootstrap-grid.min.css">
     <link rel="stylesheet" href="../css/bootstrap-5.0.2/bootstrap-reboot.min.css">
@@ -15,7 +16,7 @@
 <body>
     <menu>
         <div id="logo">
-            <img src="../images/logo.jpeg" alt="">
+            <img src="{%  static 'bulletin/logo.jpeg' %}" alt="logo">
         </div>
         <nav>
             <div><i class="fa-solid fa-house fa-2xl"></i></div>
